@@ -97,6 +97,6 @@ a[href="tel:+380961111111"] {
 }
 .primary:hover,
 .primary:focus {
-    color: var(--primary-text-color);
+    color: #ffffff;
     background-color: var(--accent-button-color);
 }
