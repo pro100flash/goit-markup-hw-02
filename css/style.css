@@ -3,30 +3,31 @@
     --secondary-text-color: #757575;
     --primary-button-color: #F5F4FA;
     --accent-button-color: #2196F3;
+    --full-white: #ffffff;
 }
 
 body {
     font-family: 'Roboto Slab', serif;
     text-transform: none;
-    background-color: #ffffff;
+    background-color: var(--full-white);
 }
 ul {
     list-style: none;
 }
 
 #top-line {
-    background-color: #ffffff;
+    background-color: var(--full-white);
 }
 
 .bot-line {
     background-color: #2F303A;
 }
 .bot-line p {
-    color: #ffffff;
+    color: var(--full-white);
 }
 
 .hero h1 {
-    color: #ffffff;
+    color: var(--full-white);
     background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
@@ -88,7 +89,7 @@ a[href="tel:+380961111111"] {
 }
 .secondary {
     background-color: var(--accent-button-color);
-    color: #ffffff;
+    color: var(--full-white);
     border-radius: 4px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
@@ -97,6 +98,6 @@ a[href="tel:+380961111111"] {
 }
 .primary:hover,
 .primary:focus {
-    color: #ffffff;
+    color: var(--full-white);
     background-color: var(--accent-button-color);
 }
