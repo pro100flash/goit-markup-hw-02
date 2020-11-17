@@ -95,7 +95,8 @@ a[href="tel:+380961111111"] {
     font-size: 16px;
     line-height: 1.8;
 }
-.primary:hover {
+.primary:hover,
+.primary:focus {
     color: var(--primary-text-color);
     background-color: var(--accent-button-color);
 }
